@@ -3,6 +3,7 @@ import VpBoard from './headerRow';
 import { Layout} from 'antd';
 import styled from 'styled-components';
 import Customers from './Boards';
+import Graph from './Graph';
 
 
 
@@ -18,6 +19,7 @@ const Dashboard = ()=>{
     <AppContainer>
        <Layout >
         <VpBoard/>
+        <Graph />
         <Customers/>
       </Layout>
       
